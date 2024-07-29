@@ -1,0 +1,7 @@
+<div *ngIf="articulo">
+    <h2>{{ articulo?.nombre }}</h2>
+    <p>{{ articulo?.descripcion }}</p>
+  </div>
+  <div *ngIf="!articulo">
+    <p>Selecciona un artículo de la lista.</p>
+  </div>
